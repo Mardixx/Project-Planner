@@ -1,0 +1,32 @@
+@import '../utils/variables';
+
+button{
+	background: none;
+	border: none;
+	box-shadow: 0 0 3px;
+	padding: $padding;
+	border-radius: $radius;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+
+#submit-project{
+	text-transform: uppercase;
+	padding: 0.8em;
+}
+
+.btn-add {
+	background: none;
+	border: none;
+	box-shadow: 0 0 3px;
+	padding: $padding;
+	border-radius: $radius;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+.divInputConfirm {
+	display: flex;
+	align-items: center;
+}

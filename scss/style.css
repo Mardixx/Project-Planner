@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Roboto:wght@700&family=Rosarivo&family=Rubik+Iso&family=Varela+Round&display=swap");
+.input-text, textArea {
+  border: none;
+  box-shadow: 0 0 5px rgba(194, 183, 183, 0.607);
+  border-radius: 1em;
+  background-color: rgba(186, 186, 186, 0.096);
+  max-width: 60%;
+  max-height: 10em;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.input-date {
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+#name-project {
+  text-align: center;
+}
+
+button {
+  background: none;
+  border: none;
+  box-shadow: 0 0 3px;
+  padding: 0.5em;
+  border-radius: 1em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+#submit-project {
+  text-transform: uppercase;
+  padding: 0.8em;
+}
+
+.btn-add {
+  background: none;
+  border: none;
+  box-shadow: 0 0 3px;
+  padding: 0.5em;
+  border-radius: 1em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.divInputConfirm {
+  display: flex;
+  align-items: center;
+}
+
+.form-project {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 20em;
+  box-shadow: 0 0 5px rgba(194, 183, 183, 0.607);
+  border-radius: 1em;
+  padding: 2em;
+}
+
+.card {
+  box-shadow: 0 0 8px rgba(194, 183, 183, 0.607);
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+.card .header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5em;
+}
+.card .body-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  width: 85%;
+}
+.card .footer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  height: 20%;
+}
+.card button {
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+}
+
+.task {
+  margin: 0.2em 10%;
+  box-shadow: 0 0 5px rgba(194, 183, 183, 0.607);
+  border-radius: 1em;
+  text-align: center;
+  padding: 0.5em 0;
+  opacity: 0.5;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-text-select: none;
+  -webkit-user-select: none;
+}
+
+.to-do {
+  margin: 0.2em 10%;
+  box-shadow: 0 0 5px rgba(194, 183, 183, 0.607);
+  border-radius: 1em;
+  text-align: center;
+  padding: 0.5em 0;
+  opacity: 0.5;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-text-select: none;
+  -webkit-user-select: none;
+  background-color: red;
+}
+
+.doing {
+  margin: 0.2em 10%;
+  box-shadow: 0 0 5px rgba(194, 183, 183, 0.607);
+  border-radius: 1em;
+  text-align: center;
+  padding: 0.5em 0;
+  opacity: 0.5;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-text-select: none;
+  -webkit-user-select: none;
+  background-color: orange;
+}
+
+.done {
+  margin: 0.2em 10%;
+  box-shadow: 0 0 5px rgba(194, 183, 183, 0.607);
+  border-radius: 1em;
+  text-align: center;
+  padding: 0.5em 0;
+  opacity: 0.5;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-text-select: none;
+  -webkit-user-select: none;
+  background-color: green;
+}
+
+select {
+  margin: 0.5em;
+  border-radius: 1em;
+}
+
+option {
+  border-radius: 1em;
+}
+
+section {
+  margin: 0 auto;
+  width: 85%;
+  padding: 1em;
+}
+
+.list-card {
+  display: grid;
+  grid-template-columns: repeat(10, 20%);
+  gap: 3em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  letter-spacing: 2px;
+  font-family: "Varela Round";
+}
+
+header {
+  background: gainsboro;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  opacity: 0.6;
+}
+header nav {
+  margin-bottom: 15px;
+}
+header nav #btn-link-nav {
+  display: flex;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+}
+header nav #btn-link-nav .dive_class {
+  display: flex;
+}
+header nav #btn-link-nav .dive_class a {
+  margin: 10px;
+  cursor: pointer;
+}
+header nav #btn-link-nav .dive_class .nav-link-image {
+  margin: 10px;
+  cursor: pointer;
+}
+header nav #btn-link-nav .button_class {
+  cursor: pointer;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */

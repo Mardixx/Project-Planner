@@ -1,0 +1,40 @@
+@import '../utils/variables';
+
+.card{
+	box-shadow: 0 0 8px $boxShadow;
+	border-radius: $radius;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	position: relative;
+	.header-card{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0.5em;
+		
+	}
+
+	.body-card{
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1em;
+		width: 85%;
+	}
+
+	.footer-card{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1em;
+		height: 20%;
+		}
+
+		button{
+			height:1.5em;
+			display: flex;
+			align-items: center;
+		}
+}
